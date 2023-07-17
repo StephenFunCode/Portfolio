@@ -19,10 +19,10 @@ export const navigation = {
       title: "Project",
       link: "#project",
     },
-    {
-      title: "Contact",
-      link: "#contact",
-    },
+    // {
+    //   title: "Contact",
+    //   link: "#contact",
+    // },
     // {
     //   title: "Links",
     //   link: "/links",
@@ -33,18 +33,28 @@ export const intro = {
   title: "Hey, I'm Stephen",
   description: "A Full Stack Software Engineer with an emphasis on usability.",
   image: profile.src,
-  buttons: [
+  icons: [
     {
-      title: "Contact Me",
-      link: "#contact",
-      isPrimary: true,
+      icon: faLinkedin,
+      link: "https://www.linkedin.com/in/stephenh2017/",
     },
-    // {
-    //   title: "Resume",
-    //   link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
-    //   isPrimary: false,
-    // },
+    {
+      icon: faGithub,
+      link: "https://github.com/StephenFunCode",
+    },
   ],
+  // buttons: [
+  //   {
+  //     title: "Contact Me",
+  //     link: "#contact",
+  //     isPrimary: true,
+  //   },
+  //   // {
+  //   //   title: "Resume",
+  //   //   link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+  //   //   isPrimary: false,
+  //   // },
+  // ],
 };
 
 export const about = {

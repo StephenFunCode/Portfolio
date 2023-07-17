@@ -24,6 +24,7 @@ export default function Home() {
         description={intro.description}
         image={intro.image}
         buttons={intro.buttons}
+        icons={intro.icons}
       />
       <About title={about.title} description={about.description} />
       {/* <Skills
@@ -31,12 +32,12 @@ export default function Home() {
         cards={work.cards}
       /> */}
       <Projects title={projects.title} cards={projects.cards} />
-      <Contact
+      {/* <Contact
         title={contact.title}
         description={contact.description}
         buttons={contact.buttons}
         icons={contact.icons}
-      />
+      /> */}
       <Footer />
     </Fragment>
   );
