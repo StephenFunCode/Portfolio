@@ -158,8 +158,7 @@ export const contact = {
 export const SEO = {
   // 50 - 60 char
   title: "Stephen Harman",
-  description:
-    "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
+  description: "Full Stack Software Engineer with an focus on usability.",
   image: profile.src,
 };
 
