@@ -158,7 +158,7 @@ export const contact = {
 export const SEO = {
   // 50 - 60 char
   title: "Stephen Harman",
-  description: "Full Stack Software Engineer with an focus on usability.",
+  description: "Full Stack Software Engineer with a focus on usability.",
   image: profile.src,
 };
 
